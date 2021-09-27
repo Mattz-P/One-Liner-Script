@@ -1,4 +1,4 @@
-# Java-16-on-ubuntu-one-liner-script
+# One-Liner Scripts
 Fast convinient script
 
 `
