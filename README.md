@@ -11,5 +11,6 @@ Swap
 `wget https://raw.githubusercontent.com/Mattz-P/One-Liner-Script/main/swap.sh && sudo sh swap.sh 4G`
 
 Xray - Proxy
+
 `wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/Xray_onekey/nginx_forward/install.sh" && chmod +x install.sh && bash install.sh
 `
