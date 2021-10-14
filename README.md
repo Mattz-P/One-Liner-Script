@@ -22,3 +22,4 @@ apt-get update && apt-get install curl -y
 curl -fsSL https://get.docker.com > docker_installer.sh
 chmod +x ./docker_installer.sh && ./docker_installer.sh
 ```
+Add VPN to Ubuntu
