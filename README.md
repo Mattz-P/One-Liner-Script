@@ -22,4 +22,15 @@ apt-get update && apt-get install curl -y
 curl -fsSL https://get.docker.com > docker_installer.sh
 chmod +x ./docker_installer.sh && ./docker_installer.sh
 ```
+
 Add VPN to Ubuntu
+
+```
+sudo apt-get update
+sudo apt-get install network-manager-strongswan
+
+openssl pkcs12 -in *.p12 -cacerts -nokeys -out ikev2CA.cer
+openssl pkcs12 -in *.p12 -clcerts -nokeys -out ikev2.cer
+openssl pkcs12 -in *.p12 -nocerts -nodes  -out ikev2.key
+
+```
