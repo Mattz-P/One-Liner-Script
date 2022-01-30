@@ -33,9 +33,3 @@ openssl pkcs12 -in *.p12 -cacerts -nokeys -out ikev2CA.cer
 openssl pkcs12 -in *.p12 -clcerts -nokeys -out ikev2.cer
 openssl pkcs12 -in *.p12 -nocerts -nodes  -out ikev2.key
 ```
-
-Apple
-
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Mattz-P/One-Liner-Script/main/apple.sh)"
-```
