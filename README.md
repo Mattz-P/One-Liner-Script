@@ -33,7 +33,7 @@ openssl pkcs12 -in *.p12 -cacerts -nokeys -out ikev2CA.cer
 openssl pkcs12 -in *.p12 -clcerts -nokeys -out ikev2.cer
 openssl pkcs12 -in *.p12 -nocerts -nodes  -out ikev2.key
 ```
-
+What's my IP
 ```
 dig @resolver4.opendns.com myip.opendns.com +short
 ```
