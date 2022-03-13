@@ -37,3 +37,9 @@ What's my IP
 ```
 dig @resolver4.opendns.com myip.opendns.com +short
 ```
+
+Mount to D Drive
+```
+targetip=
+```
+`sudo mount -t cifs //$targetip/d /mnt/d`
