@@ -40,6 +40,7 @@ dig @resolver4.opendns.com myip.opendns.com +short
 
 Mount to D Drive
 ```
+account=
 targetip=
+sudo mount -t cifs $account@//$targetip/d /mnt/d
 ```
-`sudo mount -t cifs //$targetip/d /mnt/d`
