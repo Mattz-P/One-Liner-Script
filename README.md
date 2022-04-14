@@ -48,4 +48,7 @@ sudo mount -t cifs $account@//$targetip/d /mnt/d
 ```
 
 SSL/HTTPS
-```openssl req -x509 -sha512 -nodes -extensions v3_ca -newkey rsa:4096 -keyout ca-cert-and-key.pem -days 7320 -out ca-cert-and-key.pem```
+
+```
+openssl req -x509 -sha512 -nodes -extensions v3_ca -newkey rsa:4096 -keyout ca-cert-and-key.pem -days 7320 -out ca-cert-and-key.pem
+```
